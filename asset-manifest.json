@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/platform45/static/css/main.b4ea3de5.css",
+    "main.js": "/platform45/static/js/main.e989c73d.js",
+    "static/js/787.325cd123.chunk.js": "/platform45/static/js/787.325cd123.chunk.js",
+    "static/media/face.svg": "/platform45/static/media/face.e4cebbd52e9c49ecd7b8a0c0dc9a20d8.svg",
+    "static/media/mars-symbol--white.svg": "/platform45/static/media/mars-symbol--white.a765b9317b1d766c5737b0fd34ea12f1.svg",
+    "static/media/mars-symbol.svg": "/platform45/static/media/mars-symbol.3645426d887a12b437584776b377b3bc.svg",
+    "static/media/venus-symbol.svg": "/platform45/static/media/venus-symbol.10ee0ebbeca89381caf48ce7faaac801.svg",
+    "static/media/venus-symbol--white.svg": "/platform45/static/media/venus-symbol--white.883b0e8c7fa42e3fe34fc1b4c5d20080.svg",
+    "index.html": "/platform45/index.html",
+    "static/media/card.svg": "/platform45/static/media/card.0d294b1905c6f73d40aafb5c9367b3b4.svg",
+    "static/media/card--white.svg": "/platform45/static/media/card--white.45bea3d64a89731b3c5980fbd0eb7bab.svg",
+    "static/media/arrow.svg": "/platform45/static/media/arrow.f3d9404b41ead46e1f4133618c2e7329.svg",
+    "main.b4ea3de5.css.map": "/platform45/static/css/main.b4ea3de5.css.map",
+    "main.e989c73d.js.map": "/platform45/static/js/main.e989c73d.js.map",
+    "787.325cd123.chunk.js.map": "/platform45/static/js/787.325cd123.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b4ea3de5.css",
+    "static/js/main.e989c73d.js"
+  ]
+}
