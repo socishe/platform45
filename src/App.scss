@@ -1,11 +1,44 @@
+@import "./scss/foundation/mixins";
 .App {
-    background-color: #000;
-    height: 100vh;
-    .container{
-     width: 80%;
-     margin: auto;
-     border-radius: 20px;
-     display: flex;
-
- }
+  background-color: #000;
+  height: 100vh;
+  .container {
+    width: 80%;
+    margin: auto;
+    border-radius: 20px;
+    display: flex;
+  }
+  @include tablet {
+    .container {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      .side-panel {
+        width: 100%;
+        border-radius: 0;
+        .container {
+          .original {
+            transform: rotate(90deg);
+          }
+          .rotate {
+            transform: rotate(270deg);
+          }
+        }
+      }
+      .content-wrapper {
+        width: 100%;
+        padding-inline: 0;
+        border-radius: 0;
+        padding-bottom: 3em;
+        p {
+          padding-inline: 6em;
+        }
+      }
+      .right-panel {
+        width: 100%;
+        border-radius: 0;
+        padding-bottom: 3em;
+      }
+    }
+  }
 }
