@@ -1,0 +1,22 @@
+@import "../../scss/foundation/variables.scss";
+.right-panel {
+  background-color: #fff;
+  width: 60%;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  form {
+    display: flex;
+    flex-direction: column;
+    padding-left: 1em;
+    padding-top: 2em;
+    .buttons {
+      display: flex;
+      justify-content: center;
+      column-gap: 1em;
+      padding-top: 1em;
+    }
+  }
+}
+.hide{
+  display: none !important;
+}

@@ -1,0 +1,14 @@
+.button {
+    width: 120px;
+    height: 48px;
+    border: none;
+    border-radius: 4px;
+    text-transform: uppercase;
+    background-color: #f5f8f9;
+    cursor: pointer;
+  
+    &.success {
+      background-color: #49c8a8;
+      color: #fff;
+    }
+  }

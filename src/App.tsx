@@ -1,26 +1,24 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react"
+import "./App.scss"
+import useToggle from "./hooks/useToggle"
+import ContentPanel from "./components/ContentPanel/ContentPanel"
+import Form from "./components/Form/Form"
+import SidePanel from "./components/SidePanel/SidePanel"
 
 function App() {
+  const [show, toggleShow] = useToggle(false)
+  
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="container">
+        <SidePanel show={show} 
+        // @ts-ignore
+        toggleShow={toggleShow} />
+        <ContentPanel show={show} />
+        <Form show={show} />
+      </div>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

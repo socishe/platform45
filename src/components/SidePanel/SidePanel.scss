@@ -1,0 +1,32 @@
+@import "../../scss/foundation/variables.scss";
+.side-panel {
+  width: 40%;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  height: calc(100vh - 20px);
+  background-color: $yellow;
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: inherit;
+    .face {
+      inline-size: 10rem;
+      align-self: center;
+    }
+    .arrow {
+      background-color: $charcoalGrey;
+      width: 15px;
+      border-radius: 50%;
+      padding: 1em;
+      cursor: pointer;
+      align-self: center;
+    }
+    .rotate{
+      transform: rotate(180deg);
+    }
+    p, h1{
+        align-self: center;
+    }
+  }
+}
