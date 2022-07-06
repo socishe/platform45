@@ -127,7 +127,7 @@ const Form = (props: Props) => {
           type="tel"
           name="mobile"
           id="mobile"
-          placeholder="0781333371"
+          placeholder="+91 98765 43210"
           label="Mobile"
           value={state.mobile}
           onChange={handleChange}
@@ -136,7 +136,7 @@ const Form = (props: Props) => {
           type="text"
           name="customer_id"
           id="customer_id"
-          placeholder="sihlesocishe@gmail.com"
+          placeholder="576802-ERD0348 45'"
           label="Custom ID"
           value={state.customer_id}
           onChange={handleChange}
